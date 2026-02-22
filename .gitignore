@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+
+# Conda / venv
+.env
+.venv
+conda-meta/
+
+# Model weights / large binaries
+*.pt
+*.pth
+*.safetensors
+models/
+
+# HuggingFace cache
+hf_cache/
+.cache/huggingface/
+.cache/transformers/
+
+# Debug outputs from server
+last_input.jpg
+last_enhanced.jpg
+
+# Arduino secrets (if you create later)
+secrets.h
+
+# OS files
+.DS_Store
